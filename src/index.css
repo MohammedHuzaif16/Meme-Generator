@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-nav{
+  height:65px;
+  display: flex;
+  background-color: blueviolet;
+  padding: 20px;
+  align-items: center;
+  color: white;
+}
+.img1{
+  background-color: blueviolet;
+  border-radius:40%;
+  margin: 0;
+  height: 45px;
+  margin-right: 10px;
+}
+
+.c1{
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+/* .h1{
+
+} */
+main{
+  padding :30px;
+  background-color: red;
+
+}
+
+.frm{
+  display: grid;
+  grid-template: 40px 40px/1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+ .inp{
+  font-size: 20px;
+  border-radius: 8px;
+
+}
+
+.btn{
+  background-color: purple;
+  font-size: 20px;
+  color: white;
+  grid-column: 1/-1;
+  border-radius: 10px;
+  border: none;
+}
+.imgm{
+  position: relative;
+}
+
+.imgme {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.meme {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
+
+.bot{
+  bottom: 0;
+  overflow: hidden;
+  white-space: initial;
+  text-decoration: black;
+
+}
+
+.top {
+  top: 0;
+  overflow: hidden;
+  white-space: initial;
+}
